@@ -1,0 +1,32 @@
+*{
+    background-color: #222222;
+    margin:0;
+    padding: 0;
+}
+body{
+    
+}
+
+
+header{
+    background-color:#fff;
+    height: 200px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+main>#sidebar{
+    flex: .15;
+    height:600px;
+    background-color: #252525;
+    transition: .4s ease-in-out;
+}
+
+main>#main-img{
+    flex: 3;
+    height: 600px;
+    background-color: #666666;
+}
