@@ -12,31 +12,49 @@ header{
     display: flex;
     height: 250px;
     background-color: #999999;
+    flex-direction: column;
 }
 
 #container-header{
     width: 100%;
     display: flex;
+    flex: .5;
     justify-content: center;
 }
 
 #top-header{
-    background-color: #888888;
+    background-color: #292929;
     width: 90%;
-    height: 50px;
+    height: 100%;
     
 }
 
 #top-list-menu{
-    margin: 5px 0;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
-    background-color: #777777;
+    height: 100%;
 }
 
 #top-list-menu>li{
-    color:black;
-    background-color: #777777;
+    color: #ff6315;
+}
+
+#container-header-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    background-color: #202020;
+}
+
+#list-social-midia{
+    border: 1px #ff6315 solid;
+    height: 25px;
+}
+
+#social-midia>li>a{
+    color:white;
+    text-decoration: none;
 }
