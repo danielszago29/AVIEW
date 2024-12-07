@@ -49,8 +49,8 @@
         height: 50px;
     }
 
-    #nav-bar-header>li:touch-action:{
-        background-color:#999999;
+    #nav-bar-header>li:active{
+        background-color:#eeeeee;
         font-weight: bold;
         border: 1px #ff6315 solid;
         border-top:none ;
