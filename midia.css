@@ -34,6 +34,7 @@
     #header-nav{
         position: relative;
         bottom: 22px;
+        justify-items: center;
     }
 
     #nav-bar-header{
@@ -41,6 +42,8 @@
         display:flex;
         flex-direction: column;
         height: 250px;
+        width: 80%;
+        
     }
     #nav-bar-header>li{
         height: 50px;
@@ -52,6 +55,13 @@
         border: 1px #ff6315 solid;
         border-top:none ;
         border-bottom: none;
+    }
+
+    #logo{
+        width: 80%;
+        padding: 15px 50px;
+        margin: 35px 10%;
+        justify-items: center;
     }
 
 
