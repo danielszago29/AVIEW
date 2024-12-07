@@ -60,8 +60,8 @@ header{
     flex-direction: column;
     flex: 1;
     background-color: #202020;
+    height: 100%;
 }
-
 #list-social-midia{
     margin: 5px 0px;
     height: 35px;
@@ -118,7 +118,7 @@ header{
 
 #header-nav{
     position: relative;
-    bottom: -70px;
+    bottom: -20px;
 }
 
 #nav-bar-header{
@@ -146,7 +146,6 @@ header{
     background-color:#202020;
     font-size: 1.3em;
     font-weight: bold;
-    
     border: 1px #ff6315 solid;
     border-top:none ;
     border-bottom: none;
@@ -157,8 +156,9 @@ header{
     background-color:#292929;
     width:fit-content;
     padding: 30px 100px;
-    position: relative;
-    left: 100px;
+    /*position: relative;
+    left: 100px;*/
+    align-items:end;
     border-bottom:5px #ff6315 solid ;
     border-right: 5px #ff6315 solid;
     
