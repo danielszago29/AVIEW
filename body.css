@@ -1,3 +1,40 @@
 body{
     background-color: #ff6315;
 }
+
+#body-banner{
+    width: 100%;
+    height: 200px;
+    background-color: #202020;
+    margin-top: 75px;
+}
+
+
+.row-body{
+    width: 100%;
+    height: 350px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: ;
+
+}
+
+.item-row-body{
+    flex: 1;
+    margin: 0 15px;
+    background-color: #292929;
+    border-right: 6px #292929 solid;
+    border-bottom: 6px #fff solid;
+    transition: 1s ease-in-out;
+}
+
+
+.item-row-body>img{
+    
+}
+
+.item-row-body:hover{
+    border-right: 6px #fff solid;
+    border-bottom: 6px #fff solid;
+}
+
