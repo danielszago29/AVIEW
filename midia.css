@@ -93,7 +93,9 @@
     .item-row-body{  
      width: 90%;
 }
-
+    .item-row-body:first-of-type{
+    border-bottom: 6PX #ff6315 solid;
+}
    
 
 }
