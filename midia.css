@@ -34,7 +34,6 @@
 /*.item-row-body:nth-last-of-type(-n+3){
     display: none;*/
 }
-}
 @media screen and (max-width: 649px){
     #container-header{
         display: none;
@@ -97,10 +96,6 @@
     .item-row-body{  
      width: 90%;
 }
-    /*.item-row-body:nth-last-of-type(-n+3){
-        display: none;
-    }*/
-    
 
 
 
