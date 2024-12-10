@@ -23,18 +23,26 @@ body{
     flex: 1;
     margin: 0 15px;
     background-color: #292929;
-    border-right: 6px #292929 solid;
     border-bottom: 6px #fff solid;
-    transition: 1s ease-in-out;
+    transition: .4s ease-in-out;
+    
 }
 
 
 .item-row-body>img{
-    
+   width: 100%;
+   height: 100%;
+}
+
+.item-row-body>p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
 }
 
 .item-row-body:hover{
-    border-right: 6px #fff solid;
-    border-bottom: 6px #fff solid;
+    scale: 1.05;
 }
 
