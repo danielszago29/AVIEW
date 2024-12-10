@@ -30,6 +30,10 @@
     width: 80%;
     
 }
+
+/*.item-row-body:nth-last-of-type(-n+3){
+    display: none;*/
+}
 }
 @media screen and (max-width: 649px){
     #container-header{
@@ -93,9 +97,13 @@
     .item-row-body{  
      width: 90%;
 }
-    .item-row-body:first-of-type{
-    border-bottom: 6PX #ff6315 solid;
-}
-   
+    /*.item-row-body:nth-last-of-type(-n+3){
+        display: none;
+    }*/
+    
+
+
 
 }
+   
+    
